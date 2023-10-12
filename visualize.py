@@ -54,7 +54,7 @@ def get_display_name(text, url_to_contents, include_lengths):
 def get_contents_for_url(url: str):
     """
     This is an *incredibly* inefficient way to get the contents of each url
-    If this were used in any setting with real traffic, we should save the urls from previous api calls instead of regeneraring them from urls.
+    If this were used in any setting with real traffic, we should save the ids from previous api calls instead of regeneraring them from urls.
     And probably add a caching layer, perhaps a simple sqlite cache of id => contents
 
     Also, we are not guarenteed that "/search" with a url returns that same url and its id, but i think its been fine so far
