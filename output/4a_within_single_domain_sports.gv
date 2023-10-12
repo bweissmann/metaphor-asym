@@ -1,0 +1,21 @@
+// Asymmetry in Similirity Scores
+digraph {
+	"www.espn.com/nfl/game/_/gameId/401437767"
+	"www.espn.com/nfl/boxscore/_/gameId/401437767"
+	"www.espn.com/nfl/game/_/gameId/401437767" -> "www.espn.com/nfl/boxscore/_/gameId/401437767" [label=0.931]
+	"www.espn.com/nfl/game/_/gameId/401437767"
+	"www.espn.com/nfl/game/_/gameId/401437770"
+	"www.espn.com/nfl/game/_/gameId/401437767" -> "www.espn.com/nfl/game/_/gameId/401437770" [label=0.89]
+	"www.espn.com/nfl/game/_/gameId/401437767"
+	"www.espn.com/nfl/boxscore/_/gameId/401437767"
+	"www.espn.com/nfl/game/_/gameId/401437767" -> "www.espn.com/nfl/boxscore/_/gameId/401437767" [label=0.931]
+	"www.espn.com/nfl/game/_/gameId/401437767"
+	"www.espn.com/nfl/game/_/gameId/401437770"
+	"www.espn.com/nfl/game/_/gameId/401437767" -> "www.espn.com/nfl/game/_/gameId/401437770" [label=0.89]
+	"www.espn.com/nfl/boxscore/_/gameId/401437767"
+	"www.espn.com/nfl/game/_/gameId/401437767"
+	"www.espn.com/nfl/boxscore/_/gameId/401437767" -> "www.espn.com/nfl/game/_/gameId/401437767" [label=0.938]
+	"www.espn.com/nfl/game/_/gameId/401437770"
+	"www.espn.com/nfl/game/_/gameId/401437767"
+	"www.espn.com/nfl/game/_/gameId/401437770" -> "www.espn.com/nfl/game/_/gameId/401437767" [label=0.89]
+}

@@ -1,0 +1,30 @@
+// Asymmetry in Similirity Scores
+digraph {
+	"www.espn.com/ (len=16305)"
+	"global.espn.com/ (len=12892)"
+	"www.espn.com/ (len=16305)" -> "global.espn.com/ (len=12892)" [label=0.951]
+	"www.espn.com/ (len=16305)"
+	"www.espn.co.uk/ (len=16933)"
+	"www.espn.com/ (len=16305)" -> "www.espn.co.uk/ (len=16933)" [label=0.941]
+	"global.espn.com/ (len=12892)"
+	"www.espn.co.uk/ (len=16933)"
+	"global.espn.com/ (len=12892)" -> "www.espn.co.uk/ (len=16933)" [label=0.948]
+	"global.espn.com/ (len=12892)"
+	"www.espn.com/ (len=16305)"
+	"global.espn.com/ (len=12892)" -> "www.espn.com/ (len=16305)" [label=0.937]
+	"www.espn.co.uk/ (len=16933)"
+	"global.espn.com/ (len=12892)"
+	"www.espn.co.uk/ (len=16933)" -> "global.espn.com/ (len=12892)" [label=0.945]
+	"www.espn.co.uk/ (len=16933)"
+	"www.espn.com/ (len=16305)"
+	"www.espn.co.uk/ (len=16933)" -> "www.espn.com/ (len=16305)" [label=0.932]
+	"www.espn.co.uk/ (len=16933)"
+	"www.espn.com/ (len=16305)"
+	"www.espn.co.uk/ (len=16933)" -> "www.espn.com/ (len=16305)" [label=0.902]
+	"www.nbcsports.com/ (len=6370)"
+	"sports.yahoo.com/ (len=1552)"
+	"www.nbcsports.com/ (len=6370)" -> "sports.yahoo.com/ (len=1552)" [label=0.886]
+	"sports.yahoo.com/ (len=1552)"
+	"www.nbcsports.com/ (len=6370)"
+	"sports.yahoo.com/ (len=1552)" -> "www.nbcsports.com/ (len=6370)" [label=0.909]
+}

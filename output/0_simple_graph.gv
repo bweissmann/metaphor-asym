@@ -1,0 +1,39 @@
+// Asymmetry in Similirity Scores
+digraph {
+	"www.embra.ai/"
+	"embra.app/"
+	"www.embra.ai/" -> "embra.app/" [label=0.912]
+	"www.embra.ai/"
+	"getlight.ai/"
+	"www.embra.ai/" -> "getlight.ai/" [label=0.848]
+	"www.embra.ai/"
+	"www.adept.ai/"
+	"www.embra.ai/" -> "www.adept.ai/" [label=0.822]
+	"embra.app/"
+	"www.embra.ai/"
+	"embra.app/" -> "www.embra.ai/" [label=0.99]
+	"embra.app/"
+	"getlight.ai/"
+	"embra.app/" -> "getlight.ai/" [label=0.838]
+	"embra.app/"
+	"www.adept.ai/"
+	"embra.app/" -> "www.adept.ai/" [label=0.803]
+	"getlight.ai/"
+	"www.adept.ai/"
+	"getlight.ai/" -> "www.adept.ai/" [label=0.762]
+	"getlight.ai/"
+	"www.embra.ai/"
+	"getlight.ai/" -> "www.embra.ai/" [label=0.758]
+	"getlight.ai/"
+	"embra.app/"
+	"getlight.ai/" -> "embra.app/" [label=0.736]
+	"www.adept.ai/"
+	"getlight.ai/"
+	"www.adept.ai/" -> "getlight.ai/" [label=0.841]
+	"www.adept.ai/"
+	"www.embra.ai/"
+	"www.adept.ai/" -> "www.embra.ai/" [label=0.821]
+	"www.adept.ai/"
+	"embra.app/"
+	"www.adept.ai/" -> "embra.app/" [label=0.781]
+}

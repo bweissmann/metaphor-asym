@@ -1,0 +1,21 @@
+// Asymmetry in Similirity Scores
+digraph {
+	"www.capitalism.net/articles/Globalization.htm (len=1182)"
+	"mises.org/library/globalization-long-run-big-picture (len=892894)"
+	"www.capitalism.net/articles/Globalization.htm (len=1182)" -> "mises.org/library/globalization-long-run-big-picture (len=892894)" [label=0.827]
+	"mises.org/library/globalization-long-run-big-picture (len=892894)"
+	"www.capitalism.net/articles/Globalization.htm (len=1182)"
+	"mises.org/library/globalization-long-run-big-picture (len=892894)" -> "www.capitalism.net/articles/Globalization.htm (len=1182)" [label=0.906]
+	"www.americanforeignrelations.com/knowledge/Globalization.html (len=8435)"
+	"archive.globalpolicy.org/globaliz/econ/index.htm (len=6103)"
+	"www.americanforeignrelations.com/knowledge/Globalization.html (len=8435)" -> "archive.globalpolicy.org/globaliz/econ/index.htm (len=6103)" [label=0.872]
+	"archive.globalpolicy.org/globaliz/econ/index.htm (len=6103)"
+	"www.globalissues.org/issue/38/free-trade-and-globalization (len=15591)"
+	"archive.globalpolicy.org/globaliz/econ/index.htm (len=6103)" -> "www.globalissues.org/issue/38/free-trade-and-globalization (len=15591)" [label=0.882]
+	"archive.globalpolicy.org/globaliz/econ/index.htm (len=6103)"
+	"www.americanforeignrelations.com/knowledge/Globalization.html (len=8435)"
+	"archive.globalpolicy.org/globaliz/econ/index.htm (len=6103)" -> "www.americanforeignrelations.com/knowledge/Globalization.html (len=8435)" [label=0.87]
+	"www.globalissues.org/issue/38/free-trade-and-globalization (len=15591)"
+	"archive.globalpolicy.org/globaliz/econ/index.htm (len=6103)"
+	"www.globalissues.org/issue/38/free-trade-and-globalization (len=15591)" -> "archive.globalpolicy.org/globaliz/econ/index.htm (len=6103)" [label=0.87]
+}

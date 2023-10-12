@@ -1,0 +1,12 @@
+// Asymmetry in Similirity Scores
+digraph {
+	"www.genaw.com/lowcarb/crockpot_thai_curry_beef.html"
+	"www.genaw.com/lowcarb/slow_cooker_thai_chicken.html"
+	"www.genaw.com/lowcarb/crockpot_thai_curry_beef.html" -> "www.genaw.com/lowcarb/slow_cooker_thai_chicken.html" [label=0.916]
+	"www.genaw.com/lowcarb/crockpot_thai_curry_beef.html"
+	"www.genaw.com/lowcarb/slow_cooker_thai_chicken.html"
+	"www.genaw.com/lowcarb/crockpot_thai_curry_beef.html" -> "www.genaw.com/lowcarb/slow_cooker_thai_chicken.html" [label=0.916]
+	"www.genaw.com/lowcarb/slow_cooker_thai_chicken.html"
+	"www.genaw.com/lowcarb/crockpot_thai_curry_beef.html"
+	"www.genaw.com/lowcarb/slow_cooker_thai_chicken.html" -> "www.genaw.com/lowcarb/crockpot_thai_curry_beef.html" [label=0.91]
+}

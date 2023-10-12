@@ -1,0 +1,27 @@
+// Asymmetry in Similirity Scores
+digraph {
+	"www.cursor.so/ (len=2222)"
+	"www.cursor.sh/ (len=2214)"
+	"www.cursor.so/ (len=2222)" -> "www.cursor.sh/ (len=2214)" [label=0.962]
+	"www.cursor.so/ (len=2222)"
+	"github.com/getcursor/cursor (len=2099)"
+	"www.cursor.so/ (len=2222)" -> "github.com/getcursor/cursor (len=2099)" [label=0.877]
+	"www.cursor.so/ (len=2222)"
+	"www.magnet.run/ (len=1649)"
+	"www.cursor.so/ (len=2222)" -> "www.magnet.run/ (len=1649)" [label=0.843]
+	"www.cursor.sh/ (len=2214)"
+	"www.cursor.so/ (len=2222)"
+	"www.cursor.sh/ (len=2214)" -> "www.cursor.so/ (len=2222)" [label=0.873]
+	"www.cursor.sh/ (len=2214)"
+	"github.com/getcursor/cursor (len=2099)"
+	"www.cursor.sh/ (len=2214)" -> "github.com/getcursor/cursor (len=2099)" [label=0.86]
+	"github.com/getcursor/cursor (len=2099)"
+	"www.cursor.sh/ (len=2214)"
+	"github.com/getcursor/cursor (len=2099)" -> "www.cursor.sh/ (len=2214)" [label=0.837]
+	"github.com/getcursor/cursor (len=2099)"
+	"www.cursor.so/ (len=2222)"
+	"github.com/getcursor/cursor (len=2099)" -> "www.cursor.so/ (len=2222)" [label=0.82]
+	"www.magnet.run/ (len=1649)"
+	"www.cursor.so/ (len=2222)"
+	"www.magnet.run/ (len=1649)" -> "www.cursor.so/ (len=2222)" [label=0.753]
+}

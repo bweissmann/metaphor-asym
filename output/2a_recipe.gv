@@ -1,0 +1,33 @@
+// Asymmetry in Similirity Scores
+digraph {
+	"thekitchenpaper.com/indian-butter-chicken/ (len=6860)"
+	"jessicainthekitchen.com/butter-chicken-recipe (len=6439)"
+	"thekitchenpaper.com/indian-butter-chicken/ (len=6860)" -> "jessicainthekitchen.com/butter-chicken-recipe (len=6439)" [label=0.867]
+	"thekitchenpaper.com/indian-butter-chicken/ (len=6860)"
+	"myheartbeets.com/instant-pot-butter-chicken/ (len=6320)"
+	"thekitchenpaper.com/indian-butter-chicken/ (len=6860)" -> "myheartbeets.com/instant-pot-butter-chicken/ (len=6320)" [label=0.854]
+	"jessicainthekitchen.com/butter-chicken-recipe (len=6439)"
+	"thekitchenpaper.com/indian-butter-chicken/ (len=6860)"
+	"jessicainthekitchen.com/butter-chicken-recipe (len=6439)" -> "thekitchenpaper.com/indian-butter-chicken/ (len=6860)" [label=0.861]
+	"slowcookergourmet.net/slow-cooker-butter-chicken/ (len=10192)"
+	"dinnerthendessert.com/slow-cooker-indian-butter-chicken/ (len=13488)"
+	"slowcookergourmet.net/slow-cooker-butter-chicken/ (len=10192)" -> "dinnerthendessert.com/slow-cooker-indian-butter-chicken/ (len=13488)" [label=0.929]
+	"slowcookergourmet.net/slow-cooker-butter-chicken/ (len=10192)"
+	"myheartbeets.com/instant-pot-butter-chicken/ (len=6320)"
+	"slowcookergourmet.net/slow-cooker-butter-chicken/ (len=10192)" -> "myheartbeets.com/instant-pot-butter-chicken/ (len=6320)" [label=0.883]
+	"myheartbeets.com/instant-pot-butter-chicken/ (len=6320)"
+	"dinnerthendessert.com/slow-cooker-indian-butter-chicken/ (len=13488)"
+	"myheartbeets.com/instant-pot-butter-chicken/ (len=6320)" -> "dinnerthendessert.com/slow-cooker-indian-butter-chicken/ (len=13488)" [label=0.883]
+	"myheartbeets.com/instant-pot-butter-chicken/ (len=6320)"
+	"slowcookergourmet.net/slow-cooker-butter-chicken/ (len=10192)"
+	"myheartbeets.com/instant-pot-butter-chicken/ (len=6320)" -> "slowcookergourmet.net/slow-cooker-butter-chicken/ (len=10192)" [label=0.877]
+	"myheartbeets.com/instant-pot-butter-chicken/ (len=6320)"
+	"thekitchenpaper.com/indian-butter-chicken/ (len=6860)"
+	"myheartbeets.com/instant-pot-butter-chicken/ (len=6320)" -> "thekitchenpaper.com/indian-butter-chicken/ (len=6860)" [label=0.849]
+	"dinnerthendessert.com/slow-cooker-indian-butter-chicken/ (len=13488)"
+	"slowcookergourmet.net/slow-cooker-butter-chicken/ (len=10192)"
+	"dinnerthendessert.com/slow-cooker-indian-butter-chicken/ (len=13488)" -> "slowcookergourmet.net/slow-cooker-butter-chicken/ (len=10192)" [label=0.921]
+	"dinnerthendessert.com/slow-cooker-indian-butter-chicken/ (len=13488)"
+	"myheartbeets.com/instant-pot-butter-chicken/ (len=6320)"
+	"dinnerthendessert.com/slow-cooker-indian-butter-chicken/ (len=13488)" -> "myheartbeets.com/instant-pot-butter-chicken/ (len=6320)" [label=0.887]
+}
